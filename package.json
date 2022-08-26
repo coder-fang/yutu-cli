@@ -1,0 +1,11 @@
+{
+  "name": "yutu-cli",
+  "version": "1.0.0",
+  "description": "A lightweight scaffolding tool to improve the efficiency of front-end development.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yutu",
+  "license": "ISC"
+}
