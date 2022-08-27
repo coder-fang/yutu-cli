@@ -1,0 +1,25 @@
+{
+  "name": "yutu-cli",
+  "version": "1.0.0",
+  "description": "A lightweight scaffolding tool to improve the efficiency of front-end development.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yutu",
+  "license": "ISC",
+  "bin": {
+    "yt": "index.js"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chalk": "^4.1.2",
+    "commander": "^9.4.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.5.2",
+    "fs-extra": "^10.1.0",
+    "inquirer": "^8.0.0",
+    "ora": "^5.0.0"
+  },
+  "devDependencies": {}
+}
