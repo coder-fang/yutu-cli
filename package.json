@@ -4,7 +4,11 @@
   "description": "A lightweight scaffolding tool to improve the efficiency of front-end development.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vue-cli-service build --no-clean",
+    "auto-git-pull": "node middeware/auto-git-pull branch=master",
+    "auto-git-push": "node middeware/auto-git-push branch=master",
+    "git": "npm run auto-git-pull && npm run build && npm run auto-git-push"
   },
   "author": {
     "name": "yutu",
@@ -19,6 +23,7 @@
     "yt",
     "脚手架"
   ],
+  "commandName": "yt",
   "dependencies": {
     "axios": "^0.27.2",
     "chalk": "^4.1.2",
