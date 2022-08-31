@@ -1,1 +1,1 @@
-# yutuz-cli
+# yutu-cli
