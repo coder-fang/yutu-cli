@@ -1,0 +1,25 @@
+{
+  "name": "@yutuz-cli/utils",
+  "version": "0.0.1",
+  "description": "utils",
+  "author": "coder-fang <1846015350@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/utils.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/utils.test.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "add": "^2.0.6"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "@yutuz-cli/core",
+  "version": "0.0.1",
+  "description": "core",
+  "author": "coder-fang <1846015350@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/core.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/core.test.js"
+  },
+  "dependencies": {
+    "@yutuz-cli/utils": "^0.0.1",
+    "add": "^2.0.6"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

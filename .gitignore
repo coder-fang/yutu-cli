@@ -1,2 +1,10 @@
+lerna-debug.log
 .history
-node_modules
+.DS_Store
+.idea/
+.vscode/
+node_modules/
+packages/**/node_modules
+*.log
+demo
+

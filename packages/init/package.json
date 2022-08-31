@@ -1,0 +1,19 @@
+{
+  "name": "init",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "coder-fang <1846015350@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/init.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/init.test.js"
+  }
+}
